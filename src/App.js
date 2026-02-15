@@ -7,7 +7,7 @@ import Experience from './components/Experience.js';
 import Contact from './components/Contact.js';
 import Footer from './components/Footer.js';
 import './App.css';
-
+import Certificates from './components/Certificates.js';
 function App() {
   const [theme, setTheme] = useState(localStorage.getItem('color-theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'));
 
@@ -27,9 +27,11 @@ function App() {
       <Hero />
       <Skills />
       <Projects />
-      <Experience />
+       <Experience />
+        <Certificates />
       <Contact />
       <Footer />
+
     </div>
   );
 }

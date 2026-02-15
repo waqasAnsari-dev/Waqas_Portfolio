@@ -23,6 +23,7 @@ const Navbar = ({ theme, setTheme }) => {
             <a href="#skills" className="text-gray-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-400 transition">Skills</a>
             <a href="#projects" className="text-gray-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-400 transition">Projects</a>
             <a href="#experience" className="text-gray-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-400 transition">Experience</a>
+            <a href="#certificates" className="text-gray-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-400 transition">Certificates</a>
             <a href="#contact" className="text-gray-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-400 transition">Contact</a>
             <button onClick={toggleTheme} className="p-2 rounded-full focus:outline-none">
               <svg id="theme-dark-icon" className={`w-5 h-5 text-gray-900 ${theme === 'dark' ? 'hidden' : 'block'}`} fill="currentColor" viewBox="0 0 20 20">
@@ -48,6 +49,7 @@ const Navbar = ({ theme, setTheme }) => {
           <a href="#skills" className="block px-3 py-2 text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 rounded-md transition">Skills</a>
           <a href="#projects" className="block px-3 py-2 text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 rounded-md transition">Projects</a>
           <a href="#experience" className="block px-3 py-2 text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 rounded-md transition">Experience</a>
+          <a href="#certificates" className="block px-3 py-2 text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 rounded-md transition">Certificates</a>
           <a href="#contact" className="block px-3 py-2 text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 rounded-md transition">Contact</a>
           <button onClick={toggleTheme} className="block px-3 py-2 text-gray-900 dark:text-white">Toggle Theme</button>
         </div>
