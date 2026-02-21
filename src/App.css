@@ -6,3 +6,96 @@
   0% { transform: scaleY(0); }
   100% { transform: scaleY(1); }
 }
+
+/* Animated Background Gradient */
+@keyframes gradientMove {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.animated-bg {
+    background-size: 300% 300%;
+    animation: gradientMove 8s ease infinite;
+}
+
+/* Floating Image */
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-15px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.float-animation {
+    animation: float 4s ease-in-out infinite;
+}
+
+/* Gradient Text Animation */
+@keyframes textGradient {
+    0% {
+        background-position: 0%
+    }
+
+    100% {
+        background-position: 200%
+    }
+}
+
+.gradient-text {
+    background: linear-gradient(90deg, #ffffff, #38bdf8, #c084fc, #ffffff);
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textGradient 4s linear infinite;
+}
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-up {
+    animation: fadeUp 1s ease forwards;
+}
+
+.fade-up-delay-1 {
+    animation: fadeUp 1s ease forwards;
+    animation-delay: 0.3s;
+    opacity: 0;
+}
+
+.fade-up-delay-2 {
+    animation: fadeUp 1s ease forwards;
+    animation-delay: 0.6s;
+    opacity: 0;
+}
+.animation-delay-2000 {
+    animation-delay: 2s;
+}
+
+.animation-delay-4000 {
+    animation-delay: 4s;
+}
