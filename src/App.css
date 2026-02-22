@@ -99,3 +99,27 @@
 .animation-delay-4000 {
     animation-delay: 4s;
 }
+
+/* Animated gradient for borders */
+.border-gradient {
+    background: linear-gradient(270deg, #68802fff, #f472b6, #f472b6, #000000); /* your colors */
+    background-size: 600% 600%;
+}
+
+@keyframes animatedBorder {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.animate-animatedBorder {
+    animation: animatedBorder 5s linear infinite;
+}
