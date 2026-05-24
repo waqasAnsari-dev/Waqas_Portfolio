@@ -1,9 +1,22 @@
 import ecom from '../assets/Ecom_ADs.png';
 import TechNova from '../assets/TechNova.mp4';
 
-export const projects = [
+export const projects = [ 
+  {
+        id: 1,
+        title: 'ECOM ADS By Managing SEO',
+        description: 'Professional analytics tool for optimizing Google Ads product performance and maximizing ROI. Stop budget waste & find hidden gems in your e-commerce store.',
+        category: 'MERN',
+        image: ecom,
+        alt: 'Ecom Ads by ManagingSEO - Maximize Your Google Ads ROAS',
+        demoLink: 'https://ads.managingseo.com/',
+        githubLink: '#',
+        isPrivate:true,
+        technologies: ['React', 'Node', 'Express', 'MongoDb', 'Google oAuth', 'Tailwind Css', 'ShadCn UI', 'Google Ads API'],
+
+    },
     {
-      id: 1,
+      id: 2,
       title: 'E-Commerce Platform',
       description: 'Full-featured e-commerce solution with React frontend, Node.js backend, MongoDB database, and payment integration.',
       category: 'mern',
@@ -15,7 +28,7 @@ export const projects = [
       technologies: ['React', 'Node.js', 'MongoDB', 'Stripe','JazzCash Api Integration'],
     },
     {
-      id: 2,
+      id: 3,
       title: 'NLP Chatbot',
       description: 'Contextual chatbot using Transformer models with natural language understanding and response generation.',
       category: 'ai',
@@ -26,7 +39,7 @@ export const projects = [
       technologies: ['HuggingFace', 'NLP', 'PyTorch', 'FastAPI','Tailwind CSS'],
     },
     {
-      id: 3,
+      id: 4,
       title: 'Social Media Platform',
       description: 'Feature-rich social network with real-time updates, user profiles, and content sharing.',
       category: 'mern',
@@ -37,7 +50,7 @@ export const projects = [
       technologies: ['React', 'GraphQL', 'Apollo', 'MongoDB'],
     },
     {
-      id: 4,
+      id: 5,
       title: 'Medical Image Analysis',
       description: 'Deep learning model for detecting anomalies in medical imaging with explainability features.',
       category: 'ai',
@@ -48,7 +61,7 @@ export const projects = [
       technologies: ['TensorFlow', 'Computer Vision', 'Explainable AI', 'Flask'],
     },
     {
-      id: 5,
+      id: 6,
       title: 'Project Management Tool',
       description: 'Collaborative project management platform with Kanban boards, task assignments, and team chat.',
       category: 'mern',
@@ -59,7 +72,7 @@ export const projects = [
       technologies: ['React', 'Node.js', 'WebSockets', 'MongoDB'],
     },
     {
-      id: 6,
+      id: 7,
       title: 'Financial Predictor',
       description: 'AI-powered financial analysis tool for stock prediction, risk assessment, and portfolio optimization.',
       category: 'ai',
@@ -69,17 +82,5 @@ export const projects = [
       githubLink: '#',
       technologies: ['Time Series', 'LSTM', 'Forecasting', 'Streamlit'],
     },
-    {
-        id: 7,
-        title: 'ECOM ADS By Managing SEO',
-        description: 'Professional analytics tool for optimizing Google Ads product performance and maximizing ROI. Stop budget waste & find hidden gems in your e-commerce store.',
-        category: 'MERN',
-        image: ecom,
-        alt: 'Ecom Ads by ManagingSEO - Maximize Your Google Ads ROAS',
-        demoLink: 'https://ads.managingseo.com/',
-        githubLink: '#',
-        isPrivate:true,
-        technologies: ['React', 'Node', 'Express', 'MongoDb', 'Google oAuth', 'Tailwind Css', 'ShadCn UI', 'Google Ads API'],
-
-    }
+    
   ];
