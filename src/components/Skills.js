@@ -11,7 +11,7 @@ const Skills = () => {
                 </svg>
             ),
             categories: [
-                { name: 'Frontend', skills: ['React.js', 'Redux', 'Tailwind CSS'] },
+                { name: 'Frontend', skills: ['React.js', 'Redux', 'Tailwind CSS','Tailwind CSS'] },
                 { name: 'Backend', skills: ['Node.js', 'Express.js', 'GraphQL', 'REST API'] },
                 { name: 'Database', skills: ['MongoDB', 'Mongoose'] },
             ],
