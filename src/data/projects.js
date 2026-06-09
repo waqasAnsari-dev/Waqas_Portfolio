@@ -23,7 +23,7 @@ export const projects = [
       image: 'https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/c0090f81-a905-414f-bc3c-e9d563bc0820.png',
       alt: 'E-commerce dashboard showing product listings, sales analytics, and order management',
       video: TechNova,
-      demoLink: 'https://github.com/waqasansariii/TechNova-E-commerce',
+      demoLink: 'https://tech-nova-e-commerce.vercel.app/',
       githubLink: 'https://github.com/waqasansariii/TechNova-E-commerce',
       technologies: ['React', 'Node.js', 'MongoDB', 'Stripe','JazzCash Api Integration'],
     },
