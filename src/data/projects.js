@@ -1,4 +1,6 @@
 import ecom from '../assets/Ecom_ADs.png';
+import NLP_SPAM from '../assets/NLP_SPAM.png';
+
 
 export const projects = [ 
   {
@@ -26,16 +28,26 @@ export const projects = [
       technologies: ['React', 'Node.js', 'MongoDB', 'Stripe','JazzCash Api Integration'],
     },
     {
-      id: 3,
-      title: 'NLP Chatbot',
-      description: 'Contextual chatbot using Transformer models with natural language understanding and response generation.',
-      category: 'ai',
-      image: 'https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/b3cc0488-9961-424d-a6c7-23623a0eae47.png',
-      alt: 'AI chatbot interface with conversation bubbles demonstrating NLP capabilities',
-      demoLink: '#',
-      githubLink: '#',
-      technologies: ['HuggingFace', 'NLP', 'PyTorch', 'FastAPI','Tailwind CSS'],
-    },
+  id: 3,
+  title: "NLP Spam SMS Detector",
+  description:
+    "An end-to-end Natural Language Processing project that classifies SMS messages as Spam or Ham using text preprocessing, TF-IDF vectorization, and a Multinomial Naive Bayes classifier. The application is deployed with Streamlit for real-time predictions.",
+  category: "ai",
+  image: NLP_SPAM,
+  alt: "NLP Spam SMS Detector",
+  demoLink: "https://nlp-spam-email-detector.streamlit.app/",
+  githubLink: "https://github.com/waqasansariii/NLP_Spam-SMS-Detector",
+  technologies: [
+    "Python",
+    "NLP",
+    "Scikit-learn",
+    "NLTK",
+    "TF-IDF",
+    "Multinomial Naive Bayes",
+    "Joblib",
+    "Streamlit"
+  ],
+},
     {
       id: 4,
       title: 'Social Media Platform',

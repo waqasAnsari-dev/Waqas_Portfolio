@@ -26,10 +26,10 @@ const Skills = () => {
                 </svg>
             ),
             categories: [
-                { name: 'Frameworks', skills: ['TensorFlow', 'PyTorch', 'HuggingFace', 'scikit-learn'] },
+                { name: 'Frameworks', skills: ['TensorFlow', 'PyTorch', 'HuggingFace', 'scikit-learn','Langchain'] },
                 { name: 'Specializations', skills: ['Machine Learning', 'Deep Learning', 'NLP', 'RAG', 'XAI'] },
                 { name: 'Data', skills: ['Vector DBs', 'Pandas', 'NumPy'] },
-                { name: 'Python Automation', skills: ['Selenium', 'BeautifulSoup', 'Requests'] }
+                { name: 'Python Automation', skills: ['Selenium', 'n8n', 'make.com'] }
             ],
             bgColor: 'bg-purple-100 dark:bg-purple-900/30',
             textColor: 'text-purple-800 dark:text-yellow-400',
